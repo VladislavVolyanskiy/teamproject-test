@@ -1,1 +1,33 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+
+body {
+  //font-family: $common-font;
+  //color: $item-text-color;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  display: inline-block;
+}
+
+button {
+  display: inline-block;
+  cursor: pointer;
+  /* расширяем кликабельную площадь кнопки*/
+  /* border: 1px solid transparent; */
+}
+
+img {
+  display: block;
+  //max-width: 100%; // для адаптивной верстки
+  height: auto; // для адаптивной верстки
+  // width: 100%; // временно для адаптивной верстки, пока оригин. изображения имеют произвольный размер
+}
+
+.no-scroll {
+  overflow: hidden;
+}

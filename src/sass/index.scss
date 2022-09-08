@@ -1,2 +1,29 @@
+// @import './example';
+
 @import './common';
-@import './example';
+@import "./reset";
+
+@import "./variables";
+@import "./placeholders";
+@import "./mixins";
+@import "./hidden";
+
+@import "./components/container";
+@import "./components/section";
+@import "./components/title";
+@import "./components/logo";
+@import "./components/button";
+@import "./components/transitions";
+@import "./components/modal";
+@import "./components/mobile-menu";
+
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/main";
+@import "./layout/gallery";
+@import "./layout/3dmodel";
+@import "./layout/3dscan";
+@import "./layout/3dprint";
+@import "./layout/order";
+@import "./layout/contact";
+@import "./layout/footer";
